@@ -69,7 +69,7 @@ end
 configure :build do
   set :url_root, 'http://pen-and-lens.github.io/book-club'
   # For example, change the Compass output style for deployment
-  #activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
   activate :minify_javascript
