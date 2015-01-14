@@ -13,4 +13,7 @@
   %body{class: page_classes}
     %header
       Pen & Lens
+    %nav
+      - unless current_page.path == 'index.html'
+        %a{href:'/index.html'} Home
     = yield
