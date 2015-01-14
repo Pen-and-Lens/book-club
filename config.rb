@@ -47,6 +47,8 @@
 #   end
 # end
 
+set :url_root, 'http://localhost:4567'
+
 set :haml, { :ugly => true, :format => :html5 }
 
 set :css_dir, 'stylesheets'
@@ -57,12 +59,15 @@ set :images_dir, 'images'
 
 set :relative_links, true
 
+activate :search_engine_sitemap
+
 configure :development do
   activate :livereload
 end
 
 # Build-specific configuration
 configure :build do
+  set :url_root, 'http://pen-and-lens.github.io/book-club'
   # For example, change the Compass output style for deployment
   #activate :minify_css
 
