@@ -23,5 +23,5 @@
       Pen & Lens
     %nav
       - unless current_page.path == 'index.html'
-        %a{href:'index.html'} Home
+        = link_to "Home", "/index.html"
     = yield
