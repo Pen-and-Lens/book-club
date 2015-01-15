@@ -112,5 +112,13 @@ section.discussion-info{
       margin: auto;
       max-width: initial;
     }
+    
+    .available {
+      ul {
+        list-style: none;
+        margin-top: 0.3em;
+        padding-left: 1em;
+      }
+    }
   }
 }
