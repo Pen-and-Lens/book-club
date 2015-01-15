@@ -1,0 +1,33 @@
+%section.book-info
+  = image_tag "the-alchemist.jpg", class: "book-info--img", alt: "The Alchemist Book Cover"
+  .book-info--description
+    .title
+      = link_to "The Alchemist", "http://en.wikipedia.org/wiki/The_Alchemist_%28novel%29", target: "_blank"
+    .by
+      = link_to "Paulo Coelho", "http://en.wikipedia.org/wiki/Paulo_Coelho", target: "_blank"
+    .info
+      .started
+        Started:
+        = link_to "1-13-2015", "http://www.meetup.com/pen_and_lens/events/219462145/", target: "_blank"
+      .finish Finish By: 1-27-2015
+      .recommended
+        Recommended By:
+        = link_to "Tiffany Rummel", "http://www.meetup.com/pen_and_lens/members/183242533/", target: "_blank"
+      .available
+        Available At:
+        %p
+          = link_to "Amazon", "http://www.amazon.com/The-Alchemist-Paulo-Coelho/dp/0061122416/", target: "_blank"
+          ,
+          = link_to "Kindle", "http://www.amazon.com/Alchemist-10th-Anniversary-Paulo-Coelho-ebook/dp/B000FCKC4C/", target: "_blank"
+          ,
+          = link_to "Greensburg Area Library", "http://catalog.wlnonline.org/polaris/search/title.aspx?ctx=13.1033.0.0.5&pos=4", target: "_blank"
+          ,
+          = link_to "Barnes & Noble", "http://www.barnesandnoble.com/w/alchemist-paulo-coelho/1100248293", target: "_blank"
+%section.discussion-info
+  .discussion-info--resources
+    .title
+      Resources
+    .list
+      %ul
+        %li
+          = link_to "Discussion Questions", "/files/The_Alchemist_by_Paulo_Coelho_Questions.pdf", target: "_blank"
