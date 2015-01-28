@@ -8,6 +8,10 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     addressable (2.3.6)
+    bitters (0.10.1)
+      bourbon (>= 3.2)
+      sass (>= 3.2)
+      thor
     bourbon (4.1.1)
       sass (~> 3.3)
       thor
@@ -146,6 +150,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bitters (~> 0.10.1)
   middleman (~> 3.3.7)
   middleman-blog
   middleman-deploy

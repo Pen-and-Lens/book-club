@@ -4,6 +4,7 @@
 @import 'bourbon/bourbon';
 @import 'grid-settings';
 @import 'neat/neat';
+@import 'base/base';
 
 $background_color: #C3FEFB;
 
@@ -40,6 +41,13 @@ nav{
     &:hover{
       color:#A6E22D;
     }
+  }
+}
+
+.reading-list{
+  ol{
+    list-style-type: decimal;
+    margin-left: 3em;
   }
 }
 
@@ -112,7 +120,7 @@ section.discussion-info{
       margin: auto;
       max-width: initial;
     }
-    
+
     .available {
       ul {
         list-style: none;
