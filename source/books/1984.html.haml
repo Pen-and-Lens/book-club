@@ -1,0 +1,28 @@
+%section.book-info
+  = image_tag "1984.jpg", class: "book-info--img", alt: "1984 Book Cover"
+  .book-info--description
+    .title
+      = link_to "1984", "http://en.wikipedia.org/wiki/Nineteen_Eighty-Four", target: "_blank"
+    .by
+      = link_to "George Orwell", "http://en.wikipedia.org/wiki/George_Orwell", target: "_blank"
+    .info
+      .started
+        Started: ---
+      .finish Finish By: ---
+      .recommended
+        Recommended By: ---
+      .available
+        Available At:
+        %ul
+          %li= link_to "Amazon", "http://www.amazon.com/1984-Signet-Classics-George-Orwell/dp/0451524934/", target: "_blank"
+          %li= link_to "Kindle", "http://www.amazon.com/1984-George-Orwell-ebook/dp/B003JTHWKU/", target: "_blank"
+          %li Greensburg Area Library
+          %li= link_to "Barnes & Noble", "http://www.barnesandnoble.com/w/1984-george-orwell/1100009100", target: "_blank"
+%section.discussion-info
+  .discussion-info--resources
+    .title
+      Resources
+    .list
+      %ul
+        %li
+          = link_to "Discussion Questions", "http://www.litlovers.com/reading-guides/13-fiction/746-1984-orwell?start=3", target: "_blank"
