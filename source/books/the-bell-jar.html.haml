@@ -1,0 +1,31 @@
+%section.book-info
+  = image_tag "the-bell-jar.jpg", class: "book-info--img", alt: "The Alchemist Book Cover"
+  .book-info--description
+    .title
+      = link_to "The Bell Jar", "http://en.wikipedia.org/wiki/The_Bell_Jar", target: "_blank"
+    .by
+      = link_to "Sylvia Plath", "http://en.wikipedia.org/wiki/Sylvia_Plath", target: "_blank"
+    .info
+      .started
+        Started:
+        = link_to "1-27-2015", "http://www.meetup.com/pen_and_lens/events/219939562/", target: "_blank"
+      .finish First Half By: 2-10-2015
+      .finish Finish By: 2-24-2015
+      .recommended
+        Recommended By:
+        = link_to "Mel B", "http://www.meetup.com/pen_and_lens/members/153465282/", target: "_blank"
+      .available
+        Available At:
+        %ul
+          %li= link_to "Amazon", "http://www.amazon.com/Bell-Jar-P-S-Sylvia-Plath/dp/0060837020/", target: "_blank"
+          %li= "Kindle (Unavailable)"
+          %li= "Greensburg Area Library"
+          %li= link_to "Barnes & Noble", "http://www.barnesandnoble.com/w/bell-jar-sylvia-plath/1100550703", target: "_blank"
+%section.discussion-info
+  .discussion-info--resources
+    .title
+      Resources
+    .list
+      %ul
+        %li= link_to "Study Questions", "http://www.sparknotes.com/lit/belljar/study.html", target: "_blank"
+        %li= link_to "Discussion Questions", "http://www.litlovers.com/reading-guides/13-fiction/109-bell-jar-plath?start=3", target: "_blank"
