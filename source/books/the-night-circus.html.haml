@@ -1,0 +1,28 @@
+%section.book-info
+  = image_tag "1984.jpg", class: "book-info--img", alt: "The Night Circus Book Cover"
+  .book-info--description
+    .title
+      = link_to "The Night Circus", "http://en.wikipedia.org/wiki/The_Night_Circus", target: "_blank"
+    .by
+      = link_to " Erin Morgenstern", "http://en.wikipedia.org/wiki/Erin_Morgenstern", target: "_blank"
+    .info
+      .started
+        Started:
+        = link_to "3-10-2015", "http://www.meetup.com/pen_and_lens/events/220352104/", target: "_blank"
+      .finish Finish By: ---
+      .recommended
+        Recommended By: ---
+      .available
+        Available At:
+        %ul
+          %li= link_to "Amazon", "http://www.amazon.com/The-Night-Circus-Erin-Morgenstern/dp/0307744434", target: "_blank"
+          %li= link_to "Kindle", "http://www.amazon.com/Night-Circus-Erin-Morgenstern-ebook/dp/B004J4WKTW/", target: "_blank"
+          %li Greensburg Area Library
+          %li= link_to "Barnes & Noble", "http://www.barnesandnoble.com/w/night-circus-erin-morgenstern/1100083576?ean=9780307744432", target: "_blank"
+%section.discussion-info
+  .discussion-info--resources
+    .title
+      Resources
+    .list
+      %ul
+        %li= link_to "Discussion Board", "#Not_launched", target: "_blank"
