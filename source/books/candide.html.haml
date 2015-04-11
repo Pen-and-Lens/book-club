@@ -1,0 +1,31 @@
+%section.book-info
+  = image_tag "candide.jpg", class: "book-info--img", alt: "Candide"
+  .book-info--description
+    .title
+      = link_to "Candide", "http://en.wikipedia.org/wiki/Candide", target: "_blank"
+    .by
+      = link_to "Voltaire", "http://en.wikipedia.org/wiki/Voltaire", target: "_blank"
+    .info
+      .started
+        Started:
+        = link_to "4-21-2015", "http://www.meetup.com/pen_and_lens/events/221690689/", target: "_blank"
+      .finish
+        Finish By:
+        = link_to "5-5-2015", "http://www.meetup.com/pen_and_lens/events/ccfjflythbhb/", target: "_blank"
+      .recommended
+        Recommended By:
+        = link_to "Paul Scarrone", "http://www.meetup.com/pen_and_lens/members/20809961/", target: "_blank"
+      .available
+        Available At:
+        %ul
+          %li= link_to "Amazon", "http://www.amazon.com/Candide-Voltaire/dp/1507875568/", target: "_blank"
+          %li= link_to "Kindle", "www.amazon.com/Candide-Voltaire-ebook/dp/B004UJGFKG/", target: "_blank"
+          %li Greensburg Area Library
+          %li= link_to "Barnes & Noble", "http://www.barnesandnoble.com/w/pygmalion-bernard-shaw/1100154880", target: "_blank"
+%section.discussion-info
+  .discussion-info--resources
+    .title
+      Resources
+    .list
+      %ul
+        %li= link_to "Discussion Board", "#Not_launched", target: "_blank"
