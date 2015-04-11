@@ -1,0 +1,29 @@
+%section.book-info
+  = image_tag "handmaids-tale.jpg", class: "book-info--img", alt: "The Handmaid's Tale Book Cover"
+  .book-info--description
+    .title
+      = link_to "The Handmaid's Tale", "http://en.wikipedia.org/wiki/The_Handmaid%27s_Tale", target: "_blank"
+    .by
+      = link_to "Margaret Atwood", "http://en.wikipedia.org/wiki/Margaret_Atwood", target: "_blank"
+    .info
+      .started
+        Started:
+        = link_to "5-5-2015", "http://www.meetup.com/pen_and_lens/events/ccfjflythbhb/", target: "_blank"
+      .finish
+        Finish By:
+        = link_to "5-19-2015", "http://www.meetup.com/pen_and_lens/events/ccfjflythbzb/", target: "_blank"
+      .recommended Recommended By: ---
+      .available
+        Available At:
+        %ul
+          %li= link_to "Amazon", "http://www.amazon.com/Handmaids-Tale-Margaret-Atwood/dp/038549081X/", target: "_blank"
+          %li= link_to "Kindle", "http://www.amazon.com/Handmaids-Tale-Margaret-Atwood-ebook/dp/B003JFJHTS/", target: "_blank"
+          %li Greensburg Area Library
+          %li= link_to "Barnes & Noble", "http://www.barnesandnoble.com/w/handmaids-tale-margaret-atwood/1100295471", target: "_blank"
+%section.discussion-info
+  .discussion-info--resources
+    .title
+      Resources
+    .list
+      %ul
+        %li= link_to "Discussion Board", "#Not_launched", target: "_blank"

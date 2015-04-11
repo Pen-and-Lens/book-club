@@ -1,0 +1,28 @@
+%section.book-info
+  = image_tag "no-exit.jpg", class: "book-info--img", alt: "No Exit Book Cover"
+  .book-info--description
+    .title
+      = link_to "No Exit", "http://en.wikipedia.org/wiki/No_Exit", target: "_blank"
+    .by
+      = link_to "Jean-Paul Sartre", "http://en.wikipedia.org/wiki/Jean-Paul_Sartre", target: "_blank"
+    .info
+      .started
+        Started:
+        = link_to "4-21-2015", "http://www.meetup.com/pen_and_lens/events/221690689/", target: "_blank"
+      .finish
+        Finish By:
+        = link_to "5-5-2015", "http://www.meetup.com/pen_and_lens/events/ccfjflythbhb/", target: "_blank"
+      .recommended Recommended By: ---
+      .available
+        Available At:
+        %ul
+          %li= link_to "Amazon", "http://www.amazon.com/No-Exit-Three-Other-Plays/dp/B000K6NOZ2/", target: "_blank"
+          %li Greensburg Area Library
+          %li= link_to "Barnes & Noble", "http://www.barnesandnoble.com/w/no-exit-jean-paul-sarte/1107762317", target: "_blank"
+%section.discussion-info
+  .discussion-info--resources
+    .title
+      Resources
+    .list
+      %ul
+        %li= link_to "Discussion Board", "#Not_launched", target: "_blank"
