@@ -1,0 +1,31 @@
+%section.book-info
+  = image_tag "pygmalion.jpg", class: "book-info--img", alt: "The Night Circus Book Cover"
+  .book-info--description
+    .title
+      = link_to "Pygmalion", "http://en.wikipedia.org/wiki/Pygmalion_%28play%29", target: "_blank"
+    .by
+      = link_to "George Bernard Shaw", "http://en.wikipedia.org/wiki/George_Bernard_Shaw", target: "_blank"
+    .info
+      .started
+        Started:
+        = link_to "4-7-2015", "http://www.meetup.com/pen_and_lens/events/220352073/", target: "_blank"
+      .finish
+        Finish By:
+        = link_to "4-21-2015", "http://www.meetup.com/pen_and_lens/events/221690689/", target: "_blank"
+      .recommended
+        Recommended By:
+        = link_to "Tiffany Rummel", "http://www.meetup.com/pen_and_lens/members/183242533/", target: "_blank"
+      .available
+        Available At:
+        %ul
+          %li= link_to "Amazon", "www.amazon.com/Pygmalion-George-Bernard-Shaw/dp/1503290905/", target: "_blank"
+          %li= link_to "Kindle", "www.amazon.com/Pygmalion-Bernard-Shaw-ebook/dp/B0082QHHGO/", target: "_blank"
+          %li Greensburg Area Library
+          %li= link_to "Barnes & Noble", "http://www.barnesandnoble.com/w/pygmalion-bernard-shaw/1100154880", target: "_blank"
+%section.discussion-info
+  .discussion-info--resources
+    .title
+      Resources
+    .list
+      %ul
+        %li= link_to "Discussion Board", "#Not_launched", target: "_blank"
